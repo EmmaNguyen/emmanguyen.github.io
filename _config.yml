@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: https://emmanguyen.github.io/
-baseurl: https://emmanguyen.github.io/
+url: http://emmanguyen.github.io/
+baseurl: http://emmanguyen.github.io/
 title: Emma Nguyen
 author: Emma Nguyen
 description: Personal blog and resume
