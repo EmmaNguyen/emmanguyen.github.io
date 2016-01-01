@@ -18,13 +18,13 @@ author: Emma Nguyen
 description: Personal blog and resume
 avatar: profile.png
 email: emma.mphuong@gmail.com
-github: emmanguyen/emmanguyen.github.io # username
+github: emmanguyen # username
 #twitter: username
 #linkedin: username
 #stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus 
 #disqus: username
-google_analytics: #UA-69391421-1
+google_analytics: UA-71895375-1
 
 
 # needed for travis-ci build
