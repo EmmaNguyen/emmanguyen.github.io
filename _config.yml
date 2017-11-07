@@ -14,16 +14,17 @@ safe: true
 url: http://emmanguyen.github.io/
 # baseurl: http://emmanguyen.github.io/
 baseurl:
-title: Emma Nguyen
-author: Emma Nguyen
+title: Emma Phuong Nguyen
+author: Emma Phuong Nguyen
 description: Personal blog and resume
 avatar: profile.png
 email: emma.mphuong@gmail.com
 github: emmanguyen # username
-#twitter: username
-#linkedin: username
+twitter: emmaphuongng
+linkedin: mphuongn
+facebook: emma.phuong.ng
 #stackoverflow: username   #e.g: users/2735833/proton1h1
-#Comment out if you don't want disqus 
+#Comment out if you don't want disqus
 #disqus: username
 google_analytics: UA-71895375-1
 
