@@ -11,8 +11,8 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: http://emmanguyen.github.io/
-# baseurl: http://emmanguyen.github.io/
+url: https://emmanguyen.github.io/
+baseurl: https://emmanguyen.github.io/
 baseurl:
 title: Emma Phuong Nguyen
 author: Emma Phuong Nguyen
@@ -22,7 +22,7 @@ email: emma.mphuong@gmail.com
 github: emmanguyen # username
 twitter: emmaphuongng
 linkedin: mphuongn
-facebook: emma.phuong.ng
+facebook: emmaphuong.ng
 #stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
 #disqus: username
