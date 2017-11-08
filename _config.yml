@@ -9,11 +9,9 @@ gems: [jekyll-paginate]
 port: 3000
 safe: true
 
-
 # edit here to achieve your personal greatness
 url: https://emmanguyen.github.io/
 baseurl: https://emmanguyen.github.io/
-baseurl:
 title: Emma Phuong Nguyen
 author: Emma Phuong Nguyen
 description: Personal blog and resume
@@ -27,7 +25,5 @@ facebook: emmaphuong.ng
 #Comment out if you don't want disqus
 #disqus: username
 google_analytics: UA-71895375-1
-
-
 # needed for travis-ci build
 exclude: [vendor]
