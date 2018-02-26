@@ -11,20 +11,22 @@ safe: true
 
 
 # edit here to achieve your personal greatness
-url: https://emmanguyen.github.io/
+url: http://emmanguyen.github.io/
+# baseurl: http://emmanguyen.github.io/
 baseurl:
-title: Emma Phuong Nguyen
-author: Emma Phuong Nguyen
+title: Emma Nguyen
+author: Emma Nguyen
 description: Personal blog and resume
 avatar: profile.png
 email: emma.mphuong@gmail.com
 github: emmanguyen # username
-twitter: emmaphuongng
-linkedin: mphuongn
-facebook: emmaphuong.ng
+#twitter: username
+linkedin: username
 #stackoverflow: username   #e.g: users/2735833/proton1h1
 #Comment out if you don't want disqus
 #disqus: username
 google_analytics: UA-71895375-1
+
+
 # needed for travis-ci build
 exclude: [vendor]
