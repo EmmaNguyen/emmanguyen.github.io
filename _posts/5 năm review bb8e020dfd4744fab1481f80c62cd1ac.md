@@ -1,0 +1,425 @@
+# 5 năm review
+
+Note này mình quyết định viết tiếng Việt để đánh dấu mốc thời gian. Lâu quá không dùng để ghi chú thông tin, viết chậm lại hẳn. Văn viết ngắn mà không hay mọi người thông cảm. Mình tập trung chính ở ba câu hỏi kiểu Scrum :
+1. Đã làm gì.
+2. Đang làm gì.
+3. Gặp vấn đề gì.
+
+với ba khía cạnh :
+1. Nghiên cứu như thế nào.
+2. Tech stack ra sao.
+3. Liên kết với các làng ra sao.
+
+Trước tiên để hiểu 5 dài như thế nào, đây là một vài ước lượng so sánh:
+
+- Nghiên cứu sinh đăng 3 bài báo và tốt nghiệp tiến sĩ ở Mỹ.
+- Công ty khởi nghiệp từ ý tưởng đến series B.
+- Nhân viên từ bắt đầu đến cao cấp hoặc quản lý tầm trung ở công ty lớn.
+
+Tuy nhiên không có cái nào ở trên là chuyện của mình cả.
+
+### 2015: Tự học
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled.png)
+
+Thiệt lòng mà nói lúc dropout PhD mình chỉ có ý tưởng. Điều này là quá mạo hiểu đối với nghiên cứu sinh về khoa học máy tính mới đọc được có vài bài báo. Thời điểm đó, lịch sử ngành cũng ghi rất rõ, ai muốn đi theo hướng về trí tuệ nhân tạo cũng phải bỏ xứ mà đi. Tuy nhiên khi một đứa gốc lý thuyết toán cao cấp cảm nhận được một ý tưởng hay thì khó bỏ lắm.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%201.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%201.png)
+
+Dù vậy thì kỹ năng vẫn chưa đủ. Trước đó mình đã thử nhảy vào các mảng ứng dụng, mọi thứ chỉ vẫn dừng lại với MATLAB và Jython. Rất ít mã nguồn mở của các nhóm nghiên cứu, mà có thì cũng phải biết debug. Nhưng lúc đó trí tuệ nhân tạo và khoa học dữ liệu vẫn còn là một thứ quá mới mẻ, mới nổi, được lăng xê chủ yếu bởi Bắc Mỹ. Ngó lại châu Đông Nam Á, chẳng có cộng đồng học nào để mò chung. Mình đành phải ngồi đọc lại các sách ngành toán, chạy lên Kaggle thử code, qua Coursera với Udacity học course rồi gửi email đi hỏi này nọ.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%202.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%202.png)
+
+Khi mình viết Blog này, lúc đó chưa biết phải dev trên Github như thế nào. Vẫn đang thử nghiệm công nghệ EC2 của AWS. Có lần dùng xong, quên tắt máy ngốn mất $194 phải gửi email xin xỏ xóa nợ. Sau chạy qua Nvidia/ IBM thử công nghệ GPU K80, lúc thử dàn siêu máy trong cuộc thi ImageNet Challenge. Máy bác kỹ sư bên đó vô tình reset lại hệ thống thế là tất cả công ngồi thử mất hết. Chạy python debug hoài mà chẳng biết lỗi ra sao. Bốn tháng đầu thật quá vật vã.
+
+```bash
+2015:
+
+- Github: 10 repos, 13 contributions.
+- Technology:
+    - GPU: K80s (Nvidia/ IBM)
+		- Stack: EC2 (AWS)
+    - Code: Matlab (Licensed), Python, R (Kaggle)
+- Desc: PhD Dropout hirarilously only with an ambitious idea.
+- Location: Vietnam.
+```
+
+### 2016: Đến Mỹ
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%203.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%203.png)
+
+Sau 8 tháng thử và thất bại theo kiểu ngẫu nhiên, cuối cùng mình cũng tịnh tiến về thung lũng Silicon.  Mục tiêu là một cộng đồng học tập ở San Francisco nơi tập hợp các chuyên gia và kỹ sư đầu ngành dạy về các kỹ năng thực hành. Mình học chung với các nhà khoa học, chuyên gia tư vấn, tiến sĩ và các bạn xuất thân từ các trường top bên đó.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%204.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%204.png)
+
+Trường mình học là một trong những nơi đầu tiên bên Mỹ dạy về khoa học dữ liệu. Sau đó được một co-working space mua lại để phát triển một hệ sinh thái mới. Chương trình học rất nặng hoàn toàn bằng tiếng Anh và đó là 3 tháng đầu tiên mình tới Mỹ. Bữa đầu tiên bị lạc đường về. Tuần đầu tiên trước khi biết Uber là gì thì mình đã phải mất 4 tiếng di chuyển mỗi ngày. Và mỗi ngày nốc 2 ly đầy cà phê để chiến đầu với Jet Lag - 12 tiếng - để bắt kịp với tốc độ nói nhanh như gió của các bác instructor.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%205.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%205.png)
+
+Tech stack lúc này của mình là hệ sinh thái mã nguồn mở của Python dành khoa học dữ liệu. Nổi nhất lúc đó là GraphLab. Mình vẫn tiếp tục dùng AWS với EC2 với $1000 credits. Khi học xong chạy bộ dữ liệu đến 2 tetrabytes thế là bị âm $1000. Cũng hên được xóa nợ. Mình đi hội nghị làm quen được với team IBM Watson, ghé Stanford dự trường Deep Learning đại chúng đầu tiên, rồi tranh thủ qua chơi Halloween bên Google.
+
+```bash
+2016:
+
+- Github: 97 contributions.
+- Technology:
+    - GPU: None. But I have an access to quantum computer :)
+		- Stack: EC2 (AWS), Watson (IBM)
+    - Code: Python (Codecademy, CodeCamp, ZipfianAcademy/ Galvanize)
+- Desc: A theorist desperately tries to be a practioner.
+- Location: Vietnam & Valley & San Francisco.
+```
+
+### 2017: Nâng cấp
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled.png)
+
+Trump thắng cử, mình lại rời nước Mỹ đi một cách vội vã. Về Việt Nam làm cho một công ty khởi nghiệp nhỏ có trụ sở ở Seatle. Và cố gắng tranh thủ rủ rê, hội họp với mọi người mở các sự kiện chia sẻ vừa nhỏ tương tự như trải nghiệm ở cộng đồng học tập tai San Francisco. Một trong số này là một phòng thí nghiệm y khoa ứng dụng công nghệ Tensorflow. Cả nhóm mở thử một lớp học nhỏ, sau trở thành cộng đồng có tên VietAI.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%206.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%206.png)
+
+Udacity mở khóa đầu tiên về trí tuệ nhân tạo. Mình may mắn được chon từ danh sách chờ với hơn 2000 người. Và cũng thật may mắn là lead mới của mình ở Việt Nam là một kỹ sư từ Twitter. Nhờ vậy mình học được vài chiêu mới với Scala, Apache Spark, Java, Bazel.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%204.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%204.png)
+
+Cuối năm đó, một tổ chức bên Pháp mời mình qua tham dự một sự kiện chào mừng một co-working space mới có tên là Fstation, được tài trợ bởi Microsoft và một phòng lab về y tế sức khỏe có tiếng. Sau bao nhiêu năm kiếm, mình lại có được một cơ hội thử sức với một chủ đề yêu thích. Tập dữ liệu ra đề là khá lớn với hơn 20G và dàn công nghệ là K80. Đề ra này khá khó đòi hỏi Tensorflow và Pytorch cùng với công nghệ của BigData trên dàn máy mới toanh. Kết quả may mắn lọt vào top 1% trong tầm hơn 300 đội quốc tế.
+
+```bash
+2017:
+
+- Github: 97 contributions.
+- Technology:
+    - GPU: None. But I have an access to quantum computer :)
+		- Stack: EC2 (AWS), Watson (IBM)
+    - Code: Python (Codecademy, CodeCamp, ZipfianAcademy/ Galvanize)
+- Desc: A theorist desperately tries to be a practioner.
+- Location: Vietnam & Valley & San Francisco.
+```
+
+### 2018: Leo núi
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%207.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%207.png)
+
+Sau 4 tháng chờ đợi, mình nhận được thông báo đậu VISA đến Canada. Sau đó để lấy tinh thần, mình leo bở hơi tai hai quả núi với một cái váy và legging. Một tháng sau, vào ngày đẹp trời, mình đặt mua vé máy bay. Rồi hai tuần sau đó, với nguyên bộ lúc leo núi, mình bay qua UEA và xuất hiện ở một phòng thí nghiệm ở Montreal.
+
+Cứ tưởng đây sẽ là chuyến đi định mệnh nguyên đời mình làm nghiên cứu ở đó. Mình đi học tiếng Pháp, ra ngoài làm quen với cộng đồng khởi nghiệp, mài quần trong phòng lab, thăm thú thử mọi thứ để tăng vốn sống. Ai dè vô tình tham dự hackathon, quen được một nhóm làm y tế sức khỏe và họ có ý định gây quỹ. Mình mới sực nhớ ra là nơi tốt nhất cho các dự án công nghệ chính là SF và thế là mình kiếm cách xin VISA.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%208.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%208.png)
+
+Làm giấy tờ ở Canada rất lâu, về Việt Nam rất tốn tiền và cũng lâu. Khi tìm thông tin trên mạng và gửi email đến cái tổng lãnh sự và đại sứ để hỏi, mình lần ra được Costa Rica nên quyết định nộp hồ sơ và book vé đến. Lại hai tuần sau, mình tới nơi. Trên đường đi, bị chặn hỏi, đòi giấy tờ, bị lạc trong biển người nói tiếng Tây Ban Nha. May mắn là hồ sơ được chấp nhận, vẫn quay được về Canada, tiếp tục làm nghiên cứu, tham gia tiếp hackathon, dự thêm được hai hội nghị. Nhóm y tế mình tham gia cũng thắng giải của quỹ từ chính quyền với phần thưởng mang giá trị hiện kim cao nhất.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%209.png](https://emmablogimg.s3.amazonaws.com/5years/ComputeCanada.png)
+
+Mùa đông của Canada rất lạnh. Cuối năm đó mình qua Mỹ. Ban đầu chẳng nghĩ gì to tát, qua hỏi thử. Thí nghiệm máy chạy vẫn chưa xong. Tính toán thời gian chắc mất hơn cả tháng. Trong tay mình là source code của Pytorch dựa trên một mã nguồn của Deep Mind. Lên dàn máy của quốc gia rồi mà vẫn chưa xong nên mình nghĩ là có thể tìm các công ty làm về ô tô tự lái thử hợp tác. (Cuối cùng thì mình kiếm team làm [con bot chở đồ ăn tự lái](https://www.kiwibot.com/) =)) trong lúc ngồi đi xe búyt. Các bạn cũng rất giỏi - team từ Columbia )
+
+```bash
+2018:
+
+- Github: 315 contributions.
+- Technology:
+    - GPU: K80s, V100s (Canada Compute).
+    - Stack: None.
+    - Language: Python and human language.
+    - Communities: Montreal, NeuRIPS, Bay Area, AI4Good, Global Entrepreneurship.
+- Description: Obsessive knowledge seeker. A boring world traveler.
+- Location: South East & East Asia, the U.S., Canada, and Europe.
+```
+
+### 2019: Quay lại SF
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%2010.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2010.png)
+
+Đầu năm mình săn được một cái vé đi CES ở Las Vegas, thêm Dev Conference và một loạt các Tech event ở Mỹ. Mình liên tục đi kiếm dân làm ô tô tự lái và cộng đồng Pytorch, mà kiếm hoài không thấy. Dần dần phải chuyển qua thứ đơn giản hơn như Pytorch 3D hay công cụ thiết kế cho các bạn làm VR/AR.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%2011.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2011.png)
+
+Một cái khác biệt của San Francisco so với thung lung là văn hóa. Ở thung lũng, các công ty lớn có bếp ăn siêu hạng, mọi người thường ở lại từ sáng đến tối ăn uống ở sinh hoạt. Nói chung làm tất tần tật. Muốn gặp cao thủ thường thì phải kiếm cách vô công ty họ nói chuyện xã giao. Còn ở SF, những cái hay thường xảy ở ngoài công ty, như tiệm cà phê, hàng ăn, hacker house hay co-living hay co-working space. Thường meetup, event, conference, bạn sẽ rất khó gặp được người thật việc thật ở SF mà thường là người ở nơi khác đến để tìm kiếm. Tốt cũng có. Xấu cũng có. Thật ít mà giả thì nhiều lẫn lộn với nhau.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%2012.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2012.png)
+
+Tìm nhà ở SF rất khó - y như một bộ nộp hồ sơ xin việc hay đi học vậy. Nhà hacker mà mình chui vô được vốn là thay cho một bạn kỹ sư Google. Một tháng sau mình chui ra có một bạn founder của một hot startup vào ở. Nhà thì bự mà siêu dơ, chuyện lộn xộn thì nhiều. Mỗi ngày đều tươi mới với một mẩu bi hài để hóng. Đọc group chat mà ôm bụng cười lăn lộn y như coi phim của Châu Tinh Trì. Mỗi tối đều có tọa đàm nhà bếp về tương lai của thế giới đến 3h sáng. Nói chung đây chính là định nghĩa đúng kiểu startup. Các bạn hacker nào mà ở được với nhau trong tình cảnh này thì đúng nên mở công ty chung.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%2013.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2013.png)
+
+Qua tháng 4, sau một chuyến quay lại Canada cố thử nộp một bài báo, mình gặp vài biến cố và không thể trở lại và mất tập trung làm nghiên cứu. Trong rủi có may, mình nhảy vào tham gia tích cực các hoạt động AI4Good ở mảng biến đổi khí hậu. Trở thành mentor của cuộc thi hackathon và một chuyến vô tư lư đến dãy núi Alps ở Thụy Sĩ.  
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%209.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%209.png)
+
+Trong trong quá trình thăm thú, nói chuyện và gặp gỡ cộng đồng bên đó, mình quyết định mở startup làm sản phẩm tập trung giải quyết vấn đề trong y tế sức khỏe và biến đổi khí hậu. May mắn được một pre-seed incubator mới thành lập để ý và chọn vào danh mục chiến thắng. Họ cho mình $200K credits chạy máy, một vé máy bay khứ hồi đến SF và hỗ trợ mở công ty.
+
+```bash
+2019:
+
+- Github: 172 contributions.
+- Technology:
+    - GPU: K80s, V100s (Canada Compute).
+    - Stack: None.
+    - Language: Python and human language.
+    - Communities: Montreal, NeuRIPS, Bay Area, AI4Good, Global Entrepreneurship.
+- Description: Obsessive knowledge seeker. A boring world traveler.
+- Location: South East & East Asia, the U.S., Canada, and Europe.
+```
+
+### 2020: Startup hội
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%2014.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2014.png)
+
+Source: WHO
+
+Covid-19 xuất hiện và Việt Nam là một trong những quốc gia đầu tiên chịu ảnh hưởng từ cuối tháng 1 ngay trong Tết. Giới khoa học và những người làm y tế sức khỏe là những lên tiếng đầu tiên. Mình không phải là ngoại lê. Thời điểm đó mình cũng đang bị cảm cúm, mà hên corona thông thường. Mình quyết định ở VN, theo dõi tin của WHO, đi hỏi người có kiến thức và gửi tin nhắn tới những người ở xa trước.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/2020-12-27_06-29.png](https://emmablogimg.s3.amazonaws.com/5years/2020-12-27_06-29.png)
+
+Bức xúc trước sự điềm nhiên của phương Tây, mình nhảy thẳng vào mấy trang tin truyền thông và các nhóm chia sẻ đến mức được cho làm top fan. Rồi gõ nhiều quá mình bốc lại hợp lại thành một trang riêng với lối viết đơn giản dễ hiểu cho mọi người hiểu. Nhờ vậy lai được vài người thú vị trong giới công nghệ, y tế sức khỏe và học thuật để ý. Gần cuối năm được Google/ DeepMind mời quay lại làm Mentor cho Hackathon AI4Good tại Montreal. Và cũng vô tình, trong lúc cố gắng vơ người làm y tế sức khỏe, mình kết bạn được với một bác giáo sư. Sau mới nhận ra là đây là tổ chi nhánh Sillicon của Business Canvas.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%2015.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2015.png)
+
+Source: Pioneer
+
+Tech stack của mình hiện nay khá đa dạng, may mắn được thừa hưởng từ các hệ sinh thái lớn như AWS, Segment/ Twilio, Stripe, YC và nhiều hơn nữa bắt nguồn từ [Pioneer](https://pioneer.app/offer). Nói chung [tham gia cộng đồng này thì kiếm niềm vui là chính, giải thưởng là phụ](https://thisweekinstartups.com/e1079-the-power-of-accelerators-e10-daniel-gross-founder-of-pioneer-on-gamifying-the-startup-process-importance-of-mentorship-in-tech-more/). Các bạn trẻ nào có ý tưởng hay nên tham gia thử. Không mất tiền. Quen được nhiều người thú vị. Có người đẩy mình mỗi tuần làm thêm một ít. Và luyện được tiếng Anh.
+
+![5%20na%CC%86m%20review%20bb8e020dfd4744fab1481f80c62cd1ac/Untitled%2016.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2016.png)
+
+
+Nhiều lúc cũng tự hỏi giá mà cái này có sớm hơn, chắc mình tiết kiệm được cả tá thời gian ngồi code, nhưng chắc chẳng có chuyện hay để kể trong 5 năm qua.
+
+```bash
+2020:
+
+- Github: 117 repos, 263 contributions. Artic Code Vault Contributor.
+- Technology:
+    - GPU: K80s, V100s (AWS).
+    - Stack: Mainly AWS.
+    - Language: Python & Javascript & human language.
+    - Communities: Pytorch, Gatsby, AWS, Stripe, OpenMined.
+- Description: Super optimistic founder of a cool startup.
+- Location: Internet.
+```
+---------------------------------------------------------
+
+The below is a poor translation by Google with small edits. My apology first.
+
+# 5 year review
+
+This note I decided to write in Vietnamese. Long time no use to note information. Short writing without good understanding. I focus on three Scrum-type questions:
+1. What did I do?
+2. What are I doing?
+3. What is the problem?
+
+with three aspects:
+1. How to research.
+2. Tech stack.
+3. How to link with villages.
+
+First to understand how long 5 years is, here are a few comparisons:
+
+- PhD student published 3 articles and graduated with PhD in North America.
+- Start-up company from an idea to series B.
+- Employees from beginning to senior or middle management in a large corp.
+
+But none of these is my stories.
+
+### 2015: Self-study
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac/Untitled.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled.png)
+
+Honestly, when I dropout PhD, I only have ideas. This is too risky for a computer science graduate who has just read a few articles. At that time, the history of the industry also clearly stated that anyone who wanted to go towards artificial intelligence had to leave the country. However, with advanced pure math background, it's super hard to leave it there on a table.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac/Untitled% 201.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%201.png)
+
+Even so, the skill is not enough. Before that I try to jump into application, everything just stopped with MATLAB and Jython. Very few research teams open source code, even if they do, must be able to debug. But at that time artificial intelligence and data science were still a new thing, too new, promoted mainly by North America. Looking back at Southeast Asia, there is no community of study together. I have to sit back and read math books, play Kaggle to try code, go to Coursera with Udacity to study course and then email to other schools and research groups to ask.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 202.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%202.png)
+
+When I wrote this Blog, at that time I did not know how to dev on Github. Still testing AWS EC2 technology. Once used, forgetting to turn off the phone cost $ 194 to send an email asking to write off the debt. After running an experiment through Nvidia / IBM to test the K80 GPU technology, while testing the super-machine. The machine engineer over there accidentally reset the system so all the testing was lost. Running python debugging all the time without knowing the errors. The first four months were so strenuous.
+
+``` bash
+2015:
+
+- Github: 10 repos, 13 contributions.
+- Technology:
+    - GPU: K80s (Nvidia / IBM)
+    - Stack: EC2 (AWS)
+    - Code: Matlab (Licensed), Python, R (Kaggle)
+- Desc: PhD Dropout hirarilously only with an ambitious idea.
+- Location: Vietnam.
+```
+
+### 2016: the US
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 203.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%203.png)
+
+After 8 months of random trials and failures, I finally made my way towards Silicon Valley. The goal was joining a learning community in San Francisco that brought together industry-leading experts and engineers who teach practical skills. I was with scientists, consultants, doctors and friends from top schools there.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 204.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%204.png)
+
+My program was one of the first kind in America to teach data science. It was then acquired by a co-working space to develop a new ecosystem. The curriculum is very intensive entirely in English and that was the first 3 months in America. The first day I walk outside and get lost in a city with full people speaking Spanish. It was before I knew how to use Uber. It took me 4 hours to travel a day. And every day I drunk 2 big cups of coffee to fight Jet Lag - 12 hours - to catch up with the instructors' wind-blazing speech.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 205.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%205.png)
+
+My current tech stack was Python's open source ecosystem devoted to data science. The most popular at that time was GraphLab. I continued to use AWS with EC2 with $ 1000 credits. When running the data set to 2 tetrabytes, my account was negative $ 1000. In that trip to US, I went to the conference to get acquainted with team IBM Watson, Stanford to attend the first public Deep Learning school, and then played Halloween at Google HQ.
+
+```bash
+2017:
+
+- Github: 97 contributions.
+- Technology:
+    - GPU: None. But I have an access to quantum computer :)
+    - Stack: EC2 (AWS), Watson (IBM)
+    - Code: Python (Codecademy, CodeCamp, ZipfianAcademy / Galvanize)
+- Desc: A theorist desperately tries to be a practioner.
+- Location: Vietnam & Valley & San Francisco.
+```
+
+### 2017: Upgrades
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled.png)
+
+Trump won the election, I left the United States in a hurry (Too disappointed and no mood to stay longer). I returned to Vietnam worked for a small startup based in Seattle. And tried to gather, invite, and meet with people to open small sharing events similar to experiences in the learning community in San Francisco. One of these is a medical laboratory using Tensorflow technology. The group opened a small class and then became a community called VietAI.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 206.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%206.png)
+
+Udacity was the first to unlock artificial intelligence. I was fortunate enough to be selected from a waiting list with more than 2,000 people. And also fortunately my new lead in Vietnam is an engineer from Twitter. Thanks to that, I learned some new tricks with Scala, Apache Spark, Java, Bazel.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 204.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%204.png)
+
+Later that year, a French organization invited me to attend an event to celebrate a new co-working space called Fstation, sponsored by Microsoft and a well-known health and wellness laboratory. After years of practicing, I got a chance to try again with a similar challenge in 2015. The data set was quite large with over 20G and the tech staging is the K80 with one submission. This proposal was quite difficult - it required Tensorflow and Pytorch along with BigData's technology on the brand new system. The lucky result reached the top 1% in the range of more than 300 international teams.
+
+``` bash
+2017:
+
+- Github: 24 contributions
+- Technology:
+    - GPU: K80 (AWS, Azure)
+    - Stack: EC2 (AWS), Watson (IBM)
+    - Code: Python, Java, Scala. Rentless debuger. Tensorflow -> Pytorch.
+- Description: Passionate Data Scientist loves to ignite communities.
+- Location: Vietnam.
+```
+
+### 2018: Mountain climbing
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 207.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%207.png)
+
+After 4 months of waiting, I received a notice of passing VISA to Canada. To motivate myself travel to a strange new country again, I trekked two mountains with a dress and leggings. A month later, on a fine day, I booked a plane ticket. Then two weeks later, in full trekking, I flew over to the UEA and appeared at a lab in Montreal.
+
+Thought this would be my destiny trip to do research there. I went to learn French, went out to get acquainted with the startup community, sleep in the lab, tried everything to increase my living capital. Who hesitant to accidentally participate in the hackathon, get to know a group doing health care and they intend to raise funds. I just remembered that the best place for technology projects is SF and so I found a way to apply for a VISA.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 208.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%208.png)
+
+Making papers in Canada for a long time, returning to Vietnam is very costly and also long. When looking for information on the internet and sending an email to the consular general and ambassador to ask, I found Costa Rica as a good option, so I decided to apply and book tickets. Two weeks later, we arrived. On the way, blocked, asked for papers, got lost in a sea of ​​Spanish-speaking people. Fortunately, the application was accepted, still returned to Canada, continued to do research, participated in the hackathon, and attended two more conferences. The medical group I participated in also won the fund's award from the government with the highest cash award.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 209.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%209.png)
+
+Canadian winters are very cold. At the end of that year I went to America. At first, I did not think much of a big deal, just ask a question. The running machine experiment is not finished yet. Time calculation probably takes more than a month. In my hand is Pytorch's source code based on a source code of Deep Mind. It is not done yet, so I think I can find self-driving car companies to cooperate with. (In the end, I found a team to make [self-driving food bot](https://www.kiwibot.com/) =)) while riding on the bus. Such an audacious team from Columbia)
+
+```bash
+2018:
+
+- Github: 172 contributions.
+- Technology:
+    - GPU: K80s, V100s (Canada Compute).
+- Stack: None.
+    - Language: Python and human language.
+    - Communities: Montreal, NeuRIPS, Bay Area, AI4Good, Global Entrepreneurship.
+- Description: Obsessive knowledge seeker. A boring world traveler.
+- Location: South East & East Asia, the U.S., Canada, and Europe.
+```
+
+### 2018: Mountain climbing
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 207.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%207.png)
+
+After 4 months of waiting, I received a notice to pass VISA to Canada. Then to get my spirits up, I scooted two mountains with a dress and leggings. A month later, on a fine day, I booked a plane ticket. Then two weeks later, in full trekking, I flew over to the UEA and appeared at a lab in Montreal.
+
+Thought this would be my destiny trip to do research there. I learned to speak French properly, hung out to get acquainted with the startup community, slept in the lab, tried everything to increase my living capital. Once accidentally participating in the hackathon, get to know a group doing health care and they intend to raise funds. I just remembered that the best place for technology projects is SF and I decided to apply for a VISA.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 208.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%208.png)
+
+Paperwork in Canada takes a long time. Returning to Vietnam is very costly and also time-consuming. When looking for information on the internet and sending an email to the consular general and ambassador to ask, I found Costa Rica.. Two weeks later, I arrived. On the way, I was blocked, asked for papers, got lost in a sea of ​​Spanish-speaking people. Fortunately, the application was accepted. I returned to Canada safely, continued to do research, participated in the hackathon, and attended two more conferences. The medical group I participated in also won the fund's award from the government with the highest cash award.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 209.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%209.png)
+
+Winter was very cold in Canada. It was minus ten something when I flew to the US. At first, I did not think much of a big deal, just make a small ask in-person. The running machine experiment is not finished yet. I would takes more than a month. In my hand is Pytorch's source code based on a source code of Deep Mind. So I think I can find self-driving car companies to cooperate with. (In the end, I found a company working [a self-driving food bot](https://www.kiwibot.com/) =)) while riding on the bus. An audacious team from Columbia)
+
+```bash
+2018:
+
+- Github: 315 contributions.
+- Technology:
+    - GPU: K80s, V100s (Canada Compute).
+- Stack: None.
+    - Language: Python and human language.
+    - Communities: Montreal, NeuRIPS, Bay Area, AI4Good, Global Entrepreneurship.
+- Description: Obsessive knowledge seeker. A boring world traveler.
+- Location: South East & East Asia, the U.S., Canada, and Europe.
+```
+
+### 2019: Return to SF
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 2010.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2010.png)
+
+Earlier this year I got a ticket to go to CES in Las Vegas, add Dev Conference and a series of Tech events in America. I kept looking for people to build self-driving cars and the Pytorch community, but I couldn't find them. Gradually move to something simpler like Pytorch 3D or a design tool for you to do VR / AR.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 2011.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2011.png)
+
+Another difference of San Francisco from the valley is culture. In the valley, big companies have excellent kitchens, people usually stay from morning to night to eat at activities. In general for doing everything. If you want to meet someone, you usually have to find a way to visit the campus. In SF, the good ones often happen outside of the company, like cafes, restaurants, hacker house or co-living or co-working space. Often meetup, event, conference, you will find it very difficult to meet real people in SF who often come to look elsewhere. Both good and bad. Very few real people, but more fake. All more mixed together.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 2012.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2012.png)
+
+Finding a SF home is difficult like a job application or school application. The hacker house I got into was originally to replace a Google engineer friend. A month later I came out and had a founder friend of a hot startup come in. The house is big but super dirty and messy. Every day is fresh with a piece of comedy to look forward to. Reading group chat but laughing and rolling around like watching movies of Chau Tinh Tri. Every evening there are kitchen talks about the future of the world until 3am. In general, this is the correct definition of startup type. Any hacker staying and thriving together from this social experiment should start a company together.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 2013.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2013.png)
+
+
+In April, after a trip back to Canada to try to submit an article, I had some incident and was unable to return and lost focus on doing research. In luck, I jumped into actively participating AI4Good activities in the area of ​​climate change. Becoming a mentor of a hackathon and taking a carefree trip to the Swiss Alps to review Business Canvas.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 209.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%209.png)
+
+During the process of visiting, talking and meeting the community there, I decided to start a startup as a product that focused on solving the problems of health, health and climate change. Luckily a newly formed pre-seed incubator notices and picks up me for the winning category. They gave $ 200K credits to run the machines, a round-trip ticket to SF and assisted in opening the company.
+
+``` bash
+2019:
+
+- Github: 172 contributions.
+- Technology:
+    - GPU: K80s, V100s (Canada Compute).
+- Stack: None.
+    - Language: Python and human language.
+    - Communities: Montreal, NeuRIPS, Bay Area, AI4Good, Global Entrepreneurship.
+- Description: Obsessive knowledge seeker. A boring world traveler.
+- Location: South East & East Asia, the U.S., Canada, and Europe.
+```
+
+### 2020: Startup Assembly
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 2014.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2014.png)
+
+Source: WHO
+
+Covid-19 begun and Vietnam was one of the first countries to be affected since late January right during Lunar Happy New Year. Scientists and health practitioners were the first to speak. I was not an exception. At that time I was also having a bad flu, but normal corona virus. I decided to stay in Vietnam, follow WHO daily conference, go ask knowledgeable people and send messages to people living far away.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / 2020-12-27_06-29.png](https://emmablogimg.s3.amazonaws.com/5years/2020-12-27_06-29.png)
+
+Frustrated by the ignorance of the West, I jumped straight into some public media and shared groups, and eventually became "a top fan" with a Badge. Then I gathered repetitive message together into a separate blog with a simple and easy-to-understand style for everyone to understand. This has brought an attention of a few interesting people in the tech, medical, health and academic circles. Near the end of the year, Google / DeepMind invited me to be Mentor for Hackathon AI4Good in Montreal. And also unintentionally, while trying to reach out to medical staffs, I became friends with a professor. Then realized that he is the godfather the Silicon branch of Business Canvas.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac / Untitled% 2015.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2015.png)
+
+My current tech stack was quite diverse, luckily inherited from major ecosystems such as AWS, Segment / Twilio, Stripe, YC and more derived from [Pioneer](https://pioneer.app/offer). In general [to join this community is to have fun, prizes are secondary](https://thisweekinstartups.com/e1079-the-power-of-accelerators-e10-daniel-gross-founder-of-pioneer-on-gamifying-the-startup-process-importance-of-mentorship-in-tech-more). Young people who have good ideas should try it out. It's free. Get to know many interesting people. Having someone pushing to work a little bit to try more every week. And can practice English.
+
+![5% 20na% CC% 86m% 20review% 20bb8e020dfd4744fab1481f80c62cd1ac/Untitled% 2016.png](https://emmablogimg.s3.amazonaws.com/5years/Untitled%2016.png)
+
+Many times I wonder if this would be earlier, I probably saved a dozen of time for coding, but it means I have no good story to tell in the past 5 years.
+
+```bash
+2020:
+
+- Github: 117 repos, 263 contributions. Artic Code Vault Contributor.
+- Technology:
+    - GPU: K80s, V100s (AWS).
+    - Stack: AWS.
+    - Language: Python & Javascript & human language.
+    - Communities: Pytorch, Gatsby, AWS, Stripe, OpenMined.
+- Description: Super optimistic founder of a cool startup.
+- Location: Internet.
+```
