@@ -1,0 +1,18 @@
+{
+  "name": "emmanguyen.github.io",
+  "version": "1.0.0",
+  "description": "Personal blog and resume",
+  "main": "index.html",
+  "scripts": {
+    "start": "bundle exec jekyll serve --watch --port 4000",
+    "build": "bundle exec jekyll build",
+    "dev": "bundle exec jekyll serve --livereload --port 4000"
+  },
+  "devDependencies": {
+    "jekyll": "^4.3.0",
+    "bundle": "^2.3.0"
+  },
+  "keywords": ["jekyll", "blog", "personal"],
+  "author": "Emma Phuong Nguyen",
+  "license": "MIT"
+}

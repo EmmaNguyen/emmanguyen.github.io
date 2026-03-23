@@ -1,0 +1,15 @@
+version: '3.8'
+services:
+  jekyll:
+    image: jekyll/jekyll:4.3.0
+    command: jekyll serve --watch --port 4000 --host 0.0.0.0
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/srv/jekyll
+      - jekyll_cache:/usr/local/bundle
+    environment:
+      - JEKYLL_ENV=development
+
+volumes:
+  jekyll_cache:
